@@ -23,7 +23,7 @@ export const Experience = () => {
                 <p className="text-gray-300 flex items-center gap-2"><Calendar className="h-4 w-4"/>{experience.year}</p>
               </div>
               <div className='flex-1'>
-                <p className="text-gray-300">{experience.description}</p>
+                <p className="text-justify text-gray-300">{experience.description}</p>
               </div>
           </motion.div>
         ))}

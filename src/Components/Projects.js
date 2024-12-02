@@ -21,7 +21,7 @@ export const Projects = () => {
               <img className="w-full h-48 object-top image-center" src={project.image} alt="" />
               <div className="flex flex-col items-start p-6 rounded-b-xl">
                 <p className="font-bold text-xl mb-2">{project.title}</p>
-                <p className="text-gray-400 mb-4">{project.description}</p>
+                <p className="text-justify text-gray-400 mb-4">{project.description}</p>
                 <div className="flex flex-wrap">
                   {project.technologies.map((technology, index) => (
                       <span key={index} className="px-2 py-1 mr-2 mt-2 text-white text-sm font-medium rounded border border-gray-100 mb-4">{technology}</span>
