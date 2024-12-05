@@ -19,7 +19,7 @@ export const Navbar = () => {
   return (
     <motion.nav initial={{opacity:0, y:-100}} animate={{opacity:1,y:0}} transition={{transition:0.5}} className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? "bg-gray-900/95 backdrop-blur-sm py-4" : "bg-transparent py-6"}`}>
       <div className="text-white max-w-6xl mx-auto px-8 flex justify-between items-center">
-        <motion.a whileHover={{scale:1.1}} href='#' className='outline-none logo text-2xl font-bold'>AS</motion.a>
+        <motion.a whileHover={{scale:1.1}} href='/' className='outline-none logo text-2xl font-bold'>AS</motion.a>
         <div className="md:hidden">
           <button onClick={() => setIsMenuOpen(!isMenuOpen)}><Menu size={24} /></button>
         </div>

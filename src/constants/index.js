@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/project-1.png";
-// import project2 from "../assets/projects/project-2.png";
-// import project3 from "../assets/projects/project-3.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 
 
@@ -18,8 +18,8 @@ export const EXPERIENCES = [
   },
   {
     year: "2022 - 2024",
-    role: "Application Developer Associate",
-    company: "Accenture",
+    role: "Software Devloper Intern",
+    company: "Capgemini",
     description: `Assisted in the development of user-facing features using React.js, contributing to the timely release of new product updates. Integrated and consumed RESTful APIs to fetch and display data dynamically using the asynchronous operation. Worked on bug fixing and improving the performance of existing React components.`,
     technologies: ["HTML", "CSS", "Javascript", "React"],
   },
@@ -34,22 +34,22 @@ export const PROJECTS = [
     demo:"https://codebook-as.netlify.app/",
     github:"https://github.com/AbhishekSadhwani/CodeBook",
   },
-  // {
-  //   title: "Cinemate ",
-  //   image: project2,
-  //   description: "Cinemate is a movie information web application developed using ReactJS for a responsive user experience, the sleek styling of TailwindCSS, and libraries like React Router for seamless navigation. The goal of this project is to gain an understanding of working with APIs, making fetch calls using async functions, and working with react hooks.",
-  //   technologies: ["ReactJS", "TMDB API", "TailwindCSS", "React-Router"],
-  //   demo:"https://cinemate-as.netlify.app/movies",
-  //   github:"https://github.com/AbhishekSadhwani/Cinemate-React-App",
-  // },
-  // {
-  //   title: "Portfolio Website",
-  //   image: project3,
-  //   description: "A personal portfolio website showcasing projects, skills, and contact information.",
-  //   technologies: ["ReactJS", "TailwindCSS", "Netlify"],
-  //   demo:"https://abhisheksadhwani.netlify.app/",
-  //   github:"https://github.com/AbhishekSadhwani/Portfolio",
-  // },
+  {
+    title: "Cinemate ",
+    image: project2,
+    description: "Cinemate is a movie information web application developed using ReactJS for a responsive user experience, the sleek styling of TailwindCSS, and libraries like React Router for seamless navigation. The goal of this project is to gain an understanding of working with APIs, making fetch calls using async functions, and working with react hooks.",
+    technologies: ["ReactJS", "TMDB API", "TailwindCSS", "React-Router"],
+    demo:"https://cinemate-as.netlify.app/movies",
+    github:"https://github.com/AbhishekSadhwani/Cinemate-React-App",
+  },
+  {
+    title: "Portfolio Website",
+    image: project3,
+    description: "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["ReactJS", "TailwindCSS", "Netlify"],
+    demo:"https://abhisheksadhwani.netlify.app/",
+    github:"https://github.com/AbhishekSadhwani/Portfolio",
+  },
   {
     title: "Broodl",
     image: project4,
