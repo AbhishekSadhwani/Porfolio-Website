@@ -10,13 +10,13 @@ export const Projects = () => {
       <div className="max-w-6xl mx-auto px-8 flex flex-col gap-8 py-12">
         
         {PROJECTS.map((project,index) => (
-          <div key={index} className="flex flex-wrap lg:justify-center mb-10">
+          <div key={index} className="flex flex-col md:flex-row md:justify-center mb-10">
             <div className="w-full lg:w-1/3 mx-auto">
                 <motion.div initial={{x:-100,opacity:0}} whileInView={{x:0,opacity:1}} viewport={{ once: true }} transition={{duration:1.5}}>
                     <img className="rounded mb-6" width={150} height={150} src={project.image} alt={project.title} />
                 </motion.div>
             </div>
-            <div className="w-full max-w-xl lg:w-2/3">
+            <div className="max-w-xl lg:w-2/3">
                 <motion.div initial={{x:100,opacity:0}} whileInView={{x:0,opacity:1}} viewport={{ once: true }} transition={{duration:1.5}} className="flex flex-col">
                     <p className="font-bold text-xl mb-2">{project.title}</p>
                     <p className="text-justify text-lg text-gray-400 mb-4">{project.description}</p>

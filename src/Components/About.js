@@ -11,7 +11,7 @@ export const About = () => {
           whileInView={{opacity:1, y:0}}
           viewport={{once:true}}
           transition={{duration:0.5,delay:0.1}} 
-          className='text-justify text-lg max-w-2xl mx-auto px-6'
+          className='text-justify md:text-lg max-w-2xl mx-auto px-6'
           >
             {ABOUT_TEXT}
         </motion.p>
