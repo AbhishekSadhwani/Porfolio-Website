@@ -29,6 +29,8 @@ export const Navbar = () => {
           <motion.li whileHover={{scale:1.1}} whileTap={{scale:0.95}} className='hover:text-blue-400 transition-colors'><a href="#skills">Skills</a></motion.li>
           <motion.li whileHover={{scale:1.1}} whileTap={{scale:0.95}} className='hover:text-blue-400 transition-colors'><a href="#projects">Projects</a></motion.li>
           <motion.li whileHover={{scale:1.1}} whileTap={{scale:0.95}} className='hover:text-blue-400 transition-colors'><a href="#contact">Contact</a></motion.li>
+          <motion.li whileHover={{scale:1.1}} whileTap={{scale:0.95}} className='hover:text-blue-400 transition-colors'><a href="https://abhisheksadhwani.hashnode.dev/" target="_blank" rel="noreferrer">Blog</a></motion.li>
+          
         </ul>
 
         {isMenuOpen && 
@@ -45,6 +47,7 @@ export const Navbar = () => {
                 <motion.a whileHover={{scale: 1.1}} whileTap={{scale:0.95}} className="text-2xl my-4 hover:text-blue-400 transition-colors" onClick={() => setIsMenuOpen(!isMenuOpen)} href="#skills">Skills</motion.a>
                 <motion.a whileHover={{scale: 1.1}} whileTap={{scale:0.95}} className="text-2xl my-4 hover:text-blue-400 transition-colors" onClick={() => setIsMenuOpen(!isMenuOpen)} href="#projects">Projects</motion.a>
                 <motion.a whileHover={{scale: 1.1}} whileTap={{scale:0.95}} className="text-2xl my-4 hover:text-blue-400 transition-colors" onClick={() => setIsMenuOpen(!isMenuOpen)} href="#contact">Contact</motion.a>
+                <motion.a whileHover={{scale: 1.1}} whileTap={{scale:0.95}} className="text-2xl my-4 hover:text-blue-400 transition-colors" onClick={() => setIsMenuOpen(!isMenuOpen)} href="https://abhisheksadhwani.hashnode.dev/" target="_blank" rel="noreferrer">Blog</motion.a>
               </div>
           </motion.div>
         }
