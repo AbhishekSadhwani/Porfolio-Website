@@ -38,7 +38,7 @@ export const Navbar = () => {
             initial={{opacity:0, x:"100%"}}
             animate={{opacity:1,x:0}}
             exit={{ opacity: 0, x: '100%' }}
-            className="fixed inset-0 z-50 bg-gray-900 h-screen md:hidden opacity-20"
+            className="fixed inset-0 z-50 bg-gray-900 md:hidden opacity-20"
             >
               <X onClick={() => setIsMenuOpen(!isMenuOpen)} className="cursor-pointer fixed right-10 top-5 text-gray-400" />
               <div className="flex flex-col items-center justify-center h-full">

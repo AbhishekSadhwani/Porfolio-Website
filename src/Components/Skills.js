@@ -5,7 +5,7 @@ import { skills } from '../constants';
 
 export const Skills = () => {
     return (
-        <section id="skills" className=' text-white text-center py-20'>
+        <section id="skills" className='text-white text-center py-20'>
             <Heading heading_text = "Skills & Technologies" />
             <motion.div className='max-w-6xl mx-auto px-8 flex flex-wrap items-center justify-center gap-4 py-4'>
                 {skills.map((skill,index) => (

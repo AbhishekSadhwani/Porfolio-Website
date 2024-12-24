@@ -2,7 +2,7 @@ import { Navbar, Hero, Projects, Experience, Skills, Contact, About } from "./Co
 
 function App() {
   return (
-    <div className="bg-gray-900">
+    <div className="bg-gray-900 overflow-hidden">
       <Navbar />
       <Hero />
       <About />
