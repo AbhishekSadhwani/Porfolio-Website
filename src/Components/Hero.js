@@ -9,7 +9,7 @@ export const Hero = () => {
     <section className='min-h-screen relative flex items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white'>
       <div className='absolute inset-0 bg-[url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&auto=format&fit=crop&q=80")] bg-cover bg-center opacity-10'></div>
       <div className='max-w-6xl mx-auto px-8 py-32 relative z-10'>
-        <div className='flex flex-col md:flex-row items-center gap-12'>
+        <div className='flex flex-col md:flex-row items-center gap-14'>
           <motion.div 
           initial={{opacity:0, x:-50}}
           animate={{opacity:10,x:0}}
@@ -20,7 +20,7 @@ export const Hero = () => {
               initial={{opacity:0,y:-20}}
               animate={{opacity:1,y:0}}
               transition={{delay:0.2}}
-              className='text-blue-400 text-xl mb-4'
+              className='text-blue-400 text-2xl mb-4'
               >
                 Hello, I'm
             </motion.div>
