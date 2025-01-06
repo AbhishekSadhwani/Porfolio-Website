@@ -118,8 +118,8 @@ export const PROJECTS = [
     image: project3,
     description: "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["ReactJS", "TailwindCSS", "Netlify"],
-    demo:"https://abhisheksadhwani.netlify.app/",
-    github:"https://github.com/AbhishekSadhwani/Portfolio",
+    demo:"https://abhishek-sadhwani.netlify.app/",
+    github:"https://github.com/AbhishekSadhwani/Portfolio-Website",
   },
   {
     title: "Broodl",
